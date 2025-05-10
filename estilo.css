@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* azul muito claro */
+  color: #012326;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  color: #005c99; /* azul médio */
+}
+
+.frase {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #024060; /* tom escuro para contraste */
+}
+
+.carrossel {
+  position: relative;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.carrossel img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 77, 128, 0.15);
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #5D7F8C; /* tom da paleta */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+#prev {
+  left: 10px;
+}
+
+#next {
+  right: 10px;
+}
+
+.carta-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #012326;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.carta-btn:hover {
+  background-color: #024060;
+}
+
+.carta {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #C1D0D9; /* tom claro da paleta */
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #012326;
+}
