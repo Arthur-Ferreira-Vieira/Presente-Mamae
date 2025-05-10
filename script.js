@@ -9,7 +9,7 @@ const imagens = [
   
   function trocarImagem() {
     indice = (indice + 1) % imagens.length;
-    imgElement.src = `imagem/${imagens[indice]}`;
+    imgElement.src = `img/${imagens[indice]}`;
   }
   
   setInterval(trocarImagem, 3000); // troca a cada 3 segundos
